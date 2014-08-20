@@ -849,8 +849,6 @@
 		63A603F218BC3455005FB0D0 /* GameShare_TimeProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63A603F118BC3455005FB0D0 /* GameShare_TimeProcess.cpp */; };
 		63A96FD818CDB8F9006EC427 /* Game_Memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63A96FD418CDB8F9006EC427 /* Game_Memory.cpp */; };
 		63A96FD918CDB8F9006EC427 /* Game_MemoryCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63A96FD618CDB8F9006EC427 /* Game_MemoryCard.cpp */; };
-		63AB2FA2190A4A74008B18BA /* GameFinishLayer in Resources */ = {isa = PBXBuildFile; fileRef = 63AB2FA1190A4A74008B18BA /* GameFinishLayer */; };
-		63AB2FA3190A4A74008B18BA /* GameFinishLayer in Resources */ = {isa = PBXBuildFile; fileRef = 63AB2FA1190A4A74008B18BA /* GameFinishLayer */; };
 		63B3E45D18C084BF0078F790 /* game_fruit in Resources */ = {isa = PBXBuildFile; fileRef = 63B3E45C18C084BF0078F790 /* game_fruit */; };
 		63B59DE418BAF77900E1A909 /* BG_in_game04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 63B59DD618BAF77900E1A909 /* BG_in_game04.caf */; };
 		63B59DE618BAF77900E1A909 /* EF_halbae_line.caf in Resources */ = {isa = PBXBuildFile; fileRef = 63B59DD818BAF77900E1A909 /* EF_halbae_line.caf */; };
@@ -1717,7 +1715,6 @@
 		63A96FD618CDB8F9006EC427 /* Game_MemoryCard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game_MemoryCard.cpp; path = ../Classes/Game_MemoryCard.cpp; sourceTree = "<group>"; };
 		63A96FD718CDB8F9006EC427 /* Game_MemoryCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game_MemoryCard.h; path = ../Classes/Game_MemoryCard.h; sourceTree = "<group>"; };
 		63AA2D0519094F9A0004949F /* GameUIExportJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameUIExportJson.h; path = ../Classes/GameUIExportJson.h; sourceTree = "<group>"; };
-		63AB2FA1190A4A74008B18BA /* GameFinishLayer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameFinishLayer; sourceTree = "<group>"; };
 		63B3E45C18C084BF0078F790 /* game_fruit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = game_fruit; sourceTree = "<group>"; };
 		63B59DCE18BAF24E00E1A909 /* Gamelist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Gamelist.h; path = ../Classes/Gamelist.h; sourceTree = "<group>"; };
 		63B59DD618BAF77900E1A909 /* BG_in_game04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BG_in_game04.caf; sourceTree = "<group>"; };
@@ -3523,7 +3520,6 @@
 				6316D2EB190FC94200E17198 /* MedalImages */,
 				044923D5190E87C3003C0C39 /* role */,
 				633A396B190B36410070C5A6 /* GameMemoryLayer */,
-				63AB2FA1190A4A74008B18BA /* GameFinishLayer */,
 				D190CD0B18FFEA0600E6B1CE /* tai_ko */,
 				D190F32A18F81AD5000D54F3 /* da_pao */,
 				04BB790C18ED949000FD26AE /* effect */,
@@ -3608,7 +3604,6 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				D1F627B81946FA4900A5FB08 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -3732,7 +3727,6 @@
 				04AF62D61907603B00616ED8 /* BG_in_game05.caf in Resources */,
 				6356CEE31920B87F00B11B99 /* EveryDayLogin in Resources */,
 				04AF62D81907603B00616ED8 /* game_fruit in Resources */,
-				63AB2FA3190A4A74008B18BA /* GameFinishLayer in Resources */,
 				04AF62D91907603B00616ED8 /* EF_play_pang03.caf in Resources */,
 				04AF62DA1907603B00616ED8 /* sconscript in Resources */,
 			);
@@ -3798,7 +3792,6 @@
 				04115AF018BB31F900337AD7 /* BG_in_game05.caf in Resources */,
 				6356CEE21920B87F00B11B99 /* EveryDayLogin in Resources */,
 				63B3E45D18C084BF0078F790 /* game_fruit in Resources */,
-				63AB2FA2190A4A74008B18BA /* GameFinishLayer in Resources */,
 				04115AF618BB320400337AD7 /* EF_play_pang03.caf in Resources */,
 				379BB9D217F03F3700829B88 /* sconscript in Resources */,
 			);
@@ -3819,19 +3812,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export\nCODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" ==\"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\"]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\n\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\n\nfi";
-		};
-		D1F627B81946FA4900A5FB08 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then /Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\";\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
