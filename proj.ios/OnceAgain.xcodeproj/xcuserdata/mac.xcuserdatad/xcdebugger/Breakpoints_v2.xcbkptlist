@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GameLayer/GameLayer_Resource.cpp"
+            timestampString = "421743662.714824"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "GameLayer_Resource::onEnter()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameLayer_Resource::onEnter()"
+                  moduleName = "OnceAgain"
+                  urlString = "file://localhost/Users/mac/Documents/svn/OnceAgain/trunk/cocos2d-x-2.2.1/projects/OnceAgain/Classes/GameLayer/GameLayer_Resource.cpp"
+                  timestampString = "421744042.026057"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameLayer_Resource::onEnter()"
+                  moduleName = "OnceAgain"
+                  urlString = "file://localhost/Users/mac/Documents/svn/OnceAgain/trunk/cocos2d-x-2.2.1/projects/OnceAgain/Classes/GameLayer/GameLayer_Resource.cpp"
+                  timestampString = "421744042.026379"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameLayer_Resource::onEnter()"
+                  moduleName = "OnceAgain"
+                  urlString = "file://localhost/Users/mac/Documents/svn/OnceAgain/trunk/cocos2d-x-2.2.1/projects/OnceAgain/Classes/GameLayer/GameLayer_Resource.cpp"
+                  timestampString = "421744042.026618"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "266">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
