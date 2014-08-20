@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\Program Files %28x86%29\Visual Leak Detector\include;$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\pthread;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes\RightTouch;..\Classes\DataManage;..\Classes\JellyFactory;..\Classes\Util;..\Classes\Fruit;..\Classes\Helper;..\Classes\Net;..\Classes\Common;..\Classes\Taiko;..\Classes\GameLayer;..\Classes\Thread;..\Classes\Csv;..\Classes\Circle;..\Classes\DaPao;..\Classes\GameFinish;..\Classes\XQNetDate;..\Classes\PlayerInfoTip;..\Classes\NewGuide;..\Classes;$(ProjectDir)..\..\..\extensions\CocoStudio\GUI\System;$(ProjectDir)..\..\..\extensions\GUI\CCControlExtension;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>D:\Program Files %28x86%29\Visual Leak Detector\lib\Win32;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\CCScrollviewSimple.cpp" />
+    <ClCompile Include="..\Classes\Circle\CircleScene.cpp" />
+    <ClCompile Include="..\Classes\Common\aes.cpp" />
+    <ClCompile Include="..\Classes\Common\Counter.cpp" />
+    <ClCompile Include="..\Classes\Common\CounterByImage.cpp" />
+    <ClCompile Include="..\Classes\Common\Mask.cpp" />
+    <ClCompile Include="..\Classes\Csv\CsvLoader.cpp" />
+    <ClCompile Include="..\Classes\Csv\CsvManager.cpp" />
+    <ClCompile Include="..\Classes\Csv\CsvParser.cpp" />
+    <ClCompile Include="..\Classes\DaPao\DaPaoScene.cpp" />
+    <ClCompile Include="..\Classes\DataManage\BaseData.cpp" />
+    <ClCompile Include="..\Classes\DataManage\CsvStringData.cpp" />
+    <ClCompile Include="..\Classes\DataManage\DataManager.cpp" />
+    <ClCompile Include="..\Classes\DataManage\DialogManager.cpp" />
+    <ClCompile Include="..\Classes\DataManage\FriendManager.cpp" />
+    <ClCompile Include="..\Classes\DataManage\FruitData.cpp" />
+    <ClCompile Include="..\Classes\DataManage\GameInfoManager.cpp" />
+    <ClCompile Include="..\Classes\DataManage\GameItemManager.cpp" />
+    <ClCompile Include="..\Classes\DataManage\InfoSysManager.cpp" />
+    <ClCompile Include="..\Classes\DataManage\MoneyManager.cpp" />
+    <ClCompile Include="..\Classes\DataManage\NetListProcess.cpp" />
+    <ClCompile Include="..\Classes\DataManage\PkSysManager.cpp" />
+    <ClCompile Include="..\Classes\DataManage\PlayerInfoManager.cpp" />
+    <ClCompile Include="..\Classes\DataManage\RightTouchData.cpp" />
+    <ClCompile Include="..\Classes\DataManage\StrengthenManager.cpp" />
+    <ClCompile Include="..\Classes\DataManage\TaikoData.cpp" />
+    <ClCompile Include="..\Classes\DataManage\TaskManager.cpp" />
+    <ClCompile Include="..\Classes\Fruit\FruitCommand.cpp" />
+    <ClCompile Include="..\Classes\Fruit\GameFruitField.cpp" />
+    <ClCompile Include="..\Classes\Fruit\GameFruitScene.cpp" />
+    <ClCompile Include="..\Classes\GameCommand.cpp" />
+    <ClCompile Include="..\Classes\GameDemo.cpp" />
+    <ClCompile Include="..\Classes\GameFinish\GameMedalItemLayer.cpp" />
+    <ClCompile Include="..\Classes\GameFinish\GameMedalLayer.cpp" />
+    <ClCompile Include="..\Classes\GameFinish\JudgeMedalGet.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\ChallengeCell.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\ChallengeCell2.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerChallenge.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerCrazyMode.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerFriendCell.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerFriendList.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerFriendTaskCell.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerFriendTaskList.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerGameCell.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerGameRank.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerInvite.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerLoading.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerNewerGuide.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerPk.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerPk2.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerPkBar.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerSysInfo.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayerTaiKo.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Alert.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Base.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_DayLogin.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_DiamondMarket.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_GoldMarket.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_ItemStrong.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Logo.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_LvUp.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_MaxScore.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Menu.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_NormalScore.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Resource.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_RiceBar.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_RiceMarket.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_SuperItem.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Task.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameRankCell.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameTakeRewardLayer.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\GameWeekRewardLayer.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\InviteCell.cpp" />
+    <ClCompile Include="..\Classes\GameLayer\SysInfoCell.cpp" />
+    <ClCompile Include="..\Classes\GameLinkerGuideLayer.cpp" />
+    <ClCompile Include="..\Classes\GameMemoryGuideLayer.cpp" />
+    <ClCompile Include="..\Classes\GameNewLinker.cpp" />
+    <ClCompile Include="..\Classes\GameNewLinkerItems.cpp" />
+    <ClCompile Include="..\Classes\GameNewLinkerMaps.cpp" />
+    <ClCompile Include="..\Classes\GameScheduler.cpp" />
+    <ClCompile Include="..\Classes\GameShare_Batter.cpp" />
+    <ClCompile Include="..\Classes\GameShare_Boom.cpp" />
+    <ClCompile Include="..\Classes\GameShare_Data.cpp" />
+    <ClCompile Include="..\Classes\GameShare_Global.cpp" />
+    <ClCompile Include="..\Classes\GameShare_NetSystem.cpp" />
+    <ClCompile Include="..\Classes\GameShare_Pause.cpp" />
+    <ClCompile Include="..\Classes\GameShare_Scene.cpp" />
+    <ClCompile Include="..\Classes\GameShare_Score.cpp" />
+    <ClCompile Include="..\Classes\GameShare_SysSet.cpp" />
+    <ClCompile Include="..\Classes\GameShare_Texture.cpp" />
+    <ClCompile Include="..\Classes\GameShare_TimeProcess.cpp" />
+    <ClCompile Include="..\Classes\GameSprite_Diamond.cpp" />
+    <ClCompile Include="..\Classes\GameSprite_Experience.cpp" />
+    <ClCompile Include="..\Classes\GameSprite_Gold.cpp" />
+    <ClCompile Include="..\Classes\GameSprite_Rice.cpp" />
+    <ClCompile Include="..\Classes\GameTableLayer.cpp" />
+    <ClCompile Include="..\Classes\GameTimer.cpp" />
+    <ClCompile Include="..\Classes\Game_Memory.cpp" />
+    <ClCompile Include="..\Classes\Game_MemoryCard.cpp" />
+    <ClCompile Include="..\Classes\Game_SuperMemory.cpp" />
+    <ClCompile Include="..\Classes\Helper\AudioHelper.cpp" />
+    <ClCompile Include="..\Classes\Helper\EffectActionHelp.cpp" />
+    <ClCompile Include="..\Classes\Helper\JsonHelper.cpp" />
+    <ClCompile Include="..\Classes\ImplementScheduler.cpp" />
+    <ClCompile Include="..\Classes\Net\ImageDownloader.cpp" />
+    <ClCompile Include="..\Classes\Net\NetCallBack.cpp" />
+    <ClCompile Include="..\Classes\Net\NetFactory.cpp" />
+    <ClCompile Include="..\Classes\Net\NetHookManager.cpp" />
+    <ClCompile Include="..\Classes\Net\NetHttpClient.cpp" />
+    <ClCompile Include="..\Classes\Net\NetPacket.cpp" />
+    <ClCompile Include="..\Classes\NewGuide\NewerGuideFruit.cpp" />
+    <ClCompile Include="..\Classes\NewGuide\NewerGuideRightTouch.cpp" />
+    <ClCompile Include="..\Classes\NewGuide\NewerGuideTaiko.cpp" />
+    <ClCompile Include="..\Classes\PlayerInfoTip\FightInfoLayer.cpp" />
+    <ClCompile Include="..\Classes\PlayerInfoTip\FightItemLayer.cpp" />
+    <ClCompile Include="..\Classes\PlayerInfoTip\MySelfInfoLayer.cpp" />
+    <ClCompile Include="..\Classes\PlayerInfoTip\PlayerInfoAndFightLayer.cpp" />
+    <ClCompile Include="..\Classes\RightTouch\RightTouchScene.cpp" />
+    <ClCompile Include="..\Classes\RightTouch\RTBgLayer.cpp" />
+    <ClCompile Include="..\Classes\RightTouch\RTItem.cpp" />
+    <ClCompile Include="..\Classes\RightTouch\RTItemLayer.cpp" />
+    <ClCompile Include="..\Classes\RightTouch\RTTouchLayer.cpp" />
+    <ClCompile Include="..\Classes\SanXiao\GameSanXiaoLayer.cpp" />
+    <ClCompile Include="..\Classes\SanXiao\SanXiaoConfigAnalytical.cpp" />
+    <ClCompile Include="..\Classes\SanXiao\SanXiaoItemLayer.cpp" />
+    <ClCompile Include="..\Classes\SanXiao\SanXiaoRuleController.cpp" />
+    <ClCompile Include="..\Classes\Scene_GameItem.cpp" />
+    <ClCompile Include="..\Classes\Scene_GameList.cpp" />
+    <ClCompile Include="..\Classes\Scene_GameOver.cpp" />
+    <ClCompile Include="..\Classes\Scene_GameSetting.cpp" />
+    <ClCompile Include="..\Classes\Scene_Reward.cpp" />
+    <ClCompile Include="..\Classes\Scene_Welcome.cpp" />
+    <ClCompile Include="..\Classes\SpriteFrameManage.cpp" />
+    <ClCompile Include="..\Classes\Taiko\ScaleMoveTaiko.cpp" />
+    <ClCompile Include="..\Classes\Taiko\TaikoCell.cpp" />
+    <ClCompile Include="..\Classes\Taiko\TaikoScene.cpp" />
+    <ClCompile Include="..\Classes\Thread\CriSection.cpp" />
+    <ClCompile Include="..\Classes\Thread\ScopeLock.cpp" />
+    <ClCompile Include="..\Classes\Thread\Thread.cpp" />
+    <ClCompile Include="..\Classes\Util\CCColorUtil.cpp" />
+    <ClCompile Include="..\Classes\Util\MathUtil.cpp" />
+    <ClCompile Include="..\Classes\Util\NumSprite.cpp" />
+    <ClCompile Include="..\Classes\Util\RandomUtil.cpp" />
+    <ClCompile Include="..\Classes\Util\StringUtil.cpp" />
+    <ClCompile Include="..\Classes\Util\TimeUtil.cpp" />
+    <ClCompile Include="..\Classes\Util\UnitUtil.cpp" />
+    <ClCompile Include="..\Classes\XQNetDate\XQDate.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\CCScrollviewSimple.h" />
+    <ClInclude Include="..\Classes\Circle\CircleScene.h" />
+    <ClInclude Include="..\Classes\Common\aes.h" />
+    <ClInclude Include="..\Classes\Common\Counter.h" />
+    <ClInclude Include="..\Classes\Common\CounterByImage.h" />
+    <ClInclude Include="..\Classes\Common\Mask.h" />
+    <ClInclude Include="..\Classes\Common\Singleton.h" />
+    <ClInclude Include="..\Classes\Constant.h" />
+    <ClInclude Include="..\Classes\Csv\CsvBase.h" />
+    <ClInclude Include="..\Classes\Csv\CsvLoader.h" />
+    <ClInclude Include="..\Classes\Csv\CsvManager.h" />
+    <ClInclude Include="..\Classes\Csv\CsvParser.h" />
+    <ClInclude Include="..\Classes\Csv\UniqueData.h" />
+    <ClInclude Include="..\Classes\Csv\UniqueID.h" />
+    <ClInclude Include="..\Classes\DaPao\DaPaoScene.h" />
+    <ClInclude Include="..\Classes\DataManage\BaseData.h" />
+    <ClInclude Include="..\Classes\DataManage\ComData.h" />
+    <ClInclude Include="..\Classes\DataManage\CsvStringData.h" />
+    <ClInclude Include="..\Classes\DataManage\DataManager.h" />
+    <ClInclude Include="..\Classes\DataManage\DialogManager.h" />
+    <ClInclude Include="..\Classes\DataManage\FriendManager.h" />
+    <ClInclude Include="..\Classes\DataManage\FruitData.h" />
+    <ClInclude Include="..\Classes\DataManage\GameInfoManager.h" />
+    <ClInclude Include="..\Classes\DataManage\GameItemManager.h" />
+    <ClInclude Include="..\Classes\DataManage\InfoSysManager.h" />
+    <ClInclude Include="..\Classes\DataManage\ItemDefine.h" />
+    <ClInclude Include="..\Classes\DataManage\MoneyManager.h" />
+    <ClInclude Include="..\Classes\DataManage\NetListProcess.h" />
+    <ClInclude Include="..\Classes\DataManage\PkSysManager.h" />
+    <ClInclude Include="..\Classes\DataManage\PlayerInfoManager.h" />
+    <ClInclude Include="..\Classes\DataManage\RightTouchData.h" />
+    <ClInclude Include="..\Classes\DataManage\StrengthenManager.h" />
+    <ClInclude Include="..\Classes\DataManage\TaikoData.h" />
+    <ClInclude Include="..\Classes\DataManage\TaskDefine.h" />
+    <ClInclude Include="..\Classes\DataManage\TaskManager.h" />
+    <ClInclude Include="..\Classes\Fruit\FruitCommand.h" />
+    <ClInclude Include="..\Classes\Fruit\GameFruitDefine.h" />
+    <ClInclude Include="..\Classes\Fruit\GameFruitField.h" />
+    <ClInclude Include="..\Classes\Fruit\GameFruitScene.h" />
+    <ClInclude Include="..\Classes\GameCommand.h" />
+    <ClInclude Include="..\Classes\GameCommon.h" />
+    <ClInclude Include="..\Classes\GameDemo.h" />
+    <ClInclude Include="..\Classes\GameFinish\GameMedalItemLayer.h" />
+    <ClInclude Include="..\Classes\GameFinish\GameMedalLayer.h" />
+    <ClInclude Include="..\Classes\GameFinish\JudgeMedalGet.h" />
+    <ClInclude Include="..\Classes\GameLayer\ChallengeCell.h" />
+    <ClInclude Include="..\Classes\GameLayer\ChallengeCell2.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerChallenge.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerCrazyMode.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerFriendCell.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerFriendList.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerFriendTaskCell.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerFriendTaskList.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerGameCell.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerGameRank.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerInvite.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerLoading.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerNewerGuide.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerPk.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerPk2.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerPkBar.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerSysInfo.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayerTaiKo.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Alert.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Base.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_DayLogin.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_DiamondMarket.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_GoldMarket.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_ItemStrong.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Logo.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_LvUp.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_MaxScore.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Menu.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_NormalScore.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Resource.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_RiceBar.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_RiceMarket.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_SuperItem.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Task.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameRankCell.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameTakeRewardLayer.h" />
+    <ClInclude Include="..\Classes\GameLayer\GameWeekRewardLayer.h" />
+    <ClInclude Include="..\Classes\GameLayer\InviteCell.h" />
+    <ClInclude Include="..\Classes\GameLayer\SysInfoCell.h" />
+    <ClInclude Include="..\Classes\GameLinkerGuideLayer.h" />
+    <ClInclude Include="..\Classes\Gamelist.h" />
+    <ClInclude Include="..\Classes\GameMemoryGuideLayer.h" />
+    <ClInclude Include="..\Classes\GameNewLinker.h" />
+    <ClInclude Include="..\Classes\GameNewLinkerItems.h" />
+    <ClInclude Include="..\Classes\GameNewLinkerMaps.h" />
+    <ClInclude Include="..\Classes\GameScenelist.h" />
+    <ClInclude Include="..\Classes\GameScheduler.h" />
+    <ClInclude Include="..\Classes\GameSharelist.h" />
+    <ClInclude Include="..\Classes\GameShare_Batter.h" />
+    <ClInclude Include="..\Classes\GameShare_Boom.h" />
+    <ClInclude Include="..\Classes\GameShare_Data.h" />
+    <ClInclude Include="..\Classes\GameShare_Global.h" />
+    <ClInclude Include="..\Classes\GameShare_Msg.h" />
+    <ClInclude Include="..\Classes\GameShare_NetSystem.h" />
+    <ClInclude Include="..\Classes\GameShare_Pause.h" />
+    <ClInclude Include="..\Classes\GameShare_Property.h" />
+    <ClInclude Include="..\Classes\GameShare_Scene.h" />
+    <ClInclude Include="..\Classes\GameShare_Score.h" />
+    <ClInclude Include="..\Classes\GameShare_SysSet.h" />
+    <ClInclude Include="..\Classes\GameShare_Texture.h" />
+    <ClInclude Include="..\Classes\GameShare_TimeProcess.h" />
+    <ClInclude Include="..\Classes\GameSprite_Diamond.h" />
+    <ClInclude Include="..\Classes\GameSprite_Experience.h" />
+    <ClInclude Include="..\Classes\GameSprite_Gold.h" />
+    <ClInclude Include="..\Classes\GameSprite_Rice.h" />
+    <ClInclude Include="..\Classes\GameTableLayer.h" />
+    <ClInclude Include="..\Classes\GameTimer.h" />
+    <ClInclude Include="..\Classes\GameUIExportJson.h" />
+    <ClInclude Include="..\Classes\Game_Memory.h" />
+    <ClInclude Include="..\Classes\Game_MemoryCard.h" />
+    <ClInclude Include="..\Classes\Game_SuperMemory.h" />
+    <ClInclude Include="..\Classes\Helper\AudioHelper.h" />
+    <ClInclude Include="..\Classes\Helper\EffectActionHelp.h" />
+    <ClInclude Include="..\Classes\Helper\JsonHelper.h" />
+    <ClInclude Include="..\Classes\ImplementScheduler.h" />
+    <ClInclude Include="..\Classes\Net\ImageDownloader.h" />
+    <ClInclude Include="..\Classes\Net\MsgDefine.h" />
+    <ClInclude Include="..\Classes\Net\NetCallBack.h" />
+    <ClInclude Include="..\Classes\Net\NetEvnet.h" />
+    <ClInclude Include="..\Classes\Net\NetFactory.h" />
+    <ClInclude Include="..\Classes\Net\NetHookManager.h" />
+    <ClInclude Include="..\Classes\Net\NetHttpClient.h" />
+    <ClInclude Include="..\Classes\Net\NetPacket.h" />
+    <ClInclude Include="..\Classes\NewGuide\NewerGuideFruit.h" />
+    <ClInclude Include="..\Classes\NewGuide\NewerGuideRightTouch.h" />
+    <ClInclude Include="..\Classes\NewGuide\NewerGuideTaiko.h" />
+    <ClInclude Include="..\Classes\PlayerInfoTip\FightInfoLayer.h" />
+    <ClInclude Include="..\Classes\PlayerInfoTip\FightItemLayer.h" />
+    <ClInclude Include="..\Classes\PlayerInfoTip\MySelfInfoLayer.h" />
+    <ClInclude Include="..\Classes\PlayerInfoTip\PlayerInfoAndFightLayer.h" />
+    <ClInclude Include="..\Classes\RightTouch\RightTouchDefine.h" />
+    <ClInclude Include="..\Classes\RightTouch\RightTouchScene.h" />
+    <ClInclude Include="..\Classes\RightTouch\RTBgLayer.h" />
+    <ClInclude Include="..\Classes\RightTouch\RTItem.h" />
+    <ClInclude Include="..\Classes\RightTouch\RTItemLayer.h" />
+    <ClInclude Include="..\Classes\RightTouch\RTTouchLayer.h" />
+    <ClInclude Include="..\Classes\SanXiao\GameSanXiaoLayer.h" />
+    <ClInclude Include="..\Classes\SanXiao\SanXiaoConfigAnalytical.h" />
+    <ClInclude Include="..\Classes\SanXiao\SanXiaoItemLayer.h" />
+    <ClInclude Include="..\Classes\SanXiao\SanXiaoRuleController.h" />
+    <ClInclude Include="..\Classes\Scene_GameItem.h" />
+    <ClInclude Include="..\Classes\Scene_GameList.h" />
+    <ClInclude Include="..\Classes\Scene_GameOver.h" />
+    <ClInclude Include="..\Classes\Scene_GameSetting.h" />
+    <ClInclude Include="..\Classes\Scene_Reward.h" />
+    <ClInclude Include="..\Classes\Scene_Welcome.h" />
+    <ClInclude Include="..\Classes\SpriteFrameManage.h" />
+    <ClInclude Include="..\Classes\Taiko\ScaleMoveTaiko.h" />
+    <ClInclude Include="..\Classes\Taiko\TaikoCell.h" />
+    <ClInclude Include="..\Classes\Taiko\TaikoDefine.h" />
+    <ClInclude Include="..\Classes\Taiko\TaikoScene.h" />
+    <ClInclude Include="..\Classes\Thread\CriSection.h" />
+    <ClInclude Include="..\Classes\Thread\ScopeLock.h" />
+    <ClInclude Include="..\Classes\Thread\Thread.h" />
+    <ClInclude Include="..\Classes\Util\CCColorUtil.h" />
+    <ClInclude Include="..\Classes\Util\MathUtil.h" />
+    <ClInclude Include="..\Classes\Util\NumSprite.h" />
+    <ClInclude Include="..\Classes\Util\RandomUtil.h" />
+    <ClInclude Include="..\Classes\Util\StringUtil.h" />
+    <ClInclude Include="..\Classes\Util\TimeUtil.h" />
+    <ClInclude Include="..\Classes\Util\UnitUtil.h" />
+    <ClInclude Include="..\Classes\XQNetDate\XQDate.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\Box2D\proj.win32\Box2D.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

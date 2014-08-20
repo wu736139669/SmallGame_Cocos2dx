@@ -1,0 +1,1047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Public">
+      <UniqueIdentifier>{86a81345-30e3-4c0b-a63d-0c9274eacd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameShare">
+      <UniqueIdentifier>{1f352bf2-7692-48ad-b79d-e9502f70aa9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game">
+      <UniqueIdentifier>{765012c1-0fb2-48df-be4f-bb750e059a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\Linker">
+      <UniqueIdentifier>{08beefd5-a2f9-400b-af02-756e2cfdfcb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{a29f44be-6174-4a2e-bdde-457559e4ccc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\GameFruit">
+      <UniqueIdentifier>{b659f427-5c4b-466b-8514-b814d1a85510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\RightTouch">
+      <UniqueIdentifier>{7da94ce1-41e2-4b4f-8e22-2f868361580c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameShare\GameShareScene">
+      <UniqueIdentifier>{3cbad2f1-415b-415e-9d7a-ae643c37683a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameShare\GameSprite">
+      <UniqueIdentifier>{b7d5080c-67ff-45de-800a-aaf6e47e0830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\Memory">
+      <UniqueIdentifier>{6e8ed0bb-0197-4525-b0dc-d063dcacc193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\GameDemo">
+      <UniqueIdentifier>{78c729e2-9e8a-40f4-b8f1-6ca90522a89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DataManage">
+      <UniqueIdentifier>{046577c0-dbc7-4025-ba83-758722db25b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Public\Util">
+      <UniqueIdentifier>{52d234a0-cacc-4915-9e48-4bf984e10633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\Taiko">
+      <UniqueIdentifier>{3072146c-b3a2-4d05-ab3a-ab69017ce09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Net">
+      <UniqueIdentifier>{be490a54-91e1-4eaa-99bb-96e38b65ff8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Helper">
+      <UniqueIdentifier>{2cdd2656-88c6-4271-adc8-3a6f8ea0a2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Public\Common">
+      <UniqueIdentifier>{739a9534-1cf1-4c92-947f-d01fa299bfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameLayer">
+      <UniqueIdentifier>{c1e11b68-6f43-4612-9f53-7ae51ba9ad64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Thead">
+      <UniqueIdentifier>{328bfda8-1ec2-45a1-a9d9-e451246683f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Csv">
+      <UniqueIdentifier>{42010b52-7ae7-499e-ab26-e42ddf491688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\Circle">
+      <UniqueIdentifier>{027c0c7b-2e7c-48c5-b7a6-9da9f7dd2a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\DaPao">
+      <UniqueIdentifier>{083178e5-51b6-48ce-b64b-95e81b0ec121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameLayer\GameFinish">
+      <UniqueIdentifier>{027e1ad8-d2a2-449e-87e7-2beb04d73e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\NewGuide">
+      <UniqueIdentifier>{44a93e68-d2c6-4aa0-a27b-5ca42e4b3315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\PlayerInfoTip">
+      <UniqueIdentifier>{a7381a71-3f1f-4709-95eb-8c1f52141acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SanXiao">
+      <UniqueIdentifier>{8f49aa0f-6891-4ea0-b0a0-80c25634521e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_Texture.cpp">
+      <Filter>Classes\GameShare</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_TimeProcess.cpp">
+      <Filter>Classes\GameShare</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game_Memory.cpp">
+      <Filter>Classes\Game\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene_GameList.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene_GameOver.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene_GameSetting.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene_Welcome.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameTableLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RightTouch\RightTouchScene.cpp">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RightTouch\RTBgLayer.cpp">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RightTouch\RTTouchLayer.cpp">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RightTouch\RTItem.cpp">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RightTouch\RTItemLayer.cpp">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSprite_Diamond.cpp">
+      <Filter>Classes\GameShare\GameSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSprite_Experience.cpp">
+      <Filter>Classes\GameShare\GameSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSprite_Gold.cpp">
+      <Filter>Classes\GameShare\GameSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSprite_Rice.cpp">
+      <Filter>Classes\GameShare\GameSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_Batter.cpp">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_Boom.cpp">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_Pause.cpp">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_Scene.cpp">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_Score.cpp">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game_MemoryCard.cpp">
+      <Filter>Classes\Game\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameDemo.cpp">
+      <Filter>Classes\Game\GameDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_Data.cpp">
+      <Filter>Classes\GameShare</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_Global.cpp">
+      <Filter>Classes\GameShare</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_NetSystem.cpp">
+      <Filter>Classes\GameShare</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\FruitData.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\BaseData.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\RightTouchData.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameShare_SysSet.cpp">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Taiko\TaikoScene.cpp">
+      <Filter>Classes\Game\Taiko</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\MathUtil.cpp">
+      <Filter>Classes\Public\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\RandomUtil.cpp">
+      <Filter>Classes\Public\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\TimeUtil.cpp">
+      <Filter>Classes\Public\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\UnitUtil.cpp">
+      <Filter>Classes\Public\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Fruit\FruitCommand.cpp">
+      <Filter>Classes\Game\GameFruit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Fruit\GameFruitField.cpp">
+      <Filter>Classes\Game\GameFruit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Fruit\GameFruitScene.cpp">
+      <Filter>Classes\Game\GameFruit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImplementScheduler.cpp">
+      <Filter>Classes\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteFrameManage.cpp">
+      <Filter>Classes\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameCommand.cpp">
+      <Filter>Classes\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScheduler.cpp">
+      <Filter>Classes\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameTimer.cpp">
+      <Filter>Classes\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helper\JsonHelper.cpp">
+      <Filter>Classes\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Net\NetFactory.cpp">
+      <Filter>Classes\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Net\NetHookManager.cpp">
+      <Filter>Classes\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Net\NetHttpClient.cpp">
+      <Filter>Classes\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\DataManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene_GameItem.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Mask.cpp">
+      <Filter>Classes\Public\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Net\NetPacket.cpp">
+      <Filter>Classes\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\StringUtil.cpp">
+      <Filter>Classes\Public\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Thread\CriSection.cpp">
+      <Filter>Classes\Thead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Thread\ScopeLock.cpp">
+      <Filter>Classes\Thead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Thread\Thread.cpp">
+      <Filter>Classes\Thead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helper\AudioHelper.cpp">
+      <Filter>Classes\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_GoldMarket.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_ItemStrong.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Menu.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Resource.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_RiceBar.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_RiceMarket.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_SuperItem.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Task.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Alert.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_DayLogin.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_DiamondMarket.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Csv\CsvLoader.cpp">
+      <Filter>Classes\Csv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Csv\CsvManager.cpp">
+      <Filter>Classes\Csv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Csv\CsvParser.cpp">
+      <Filter>Classes\Csv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\CsvStringData.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\MoneyManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\PlayerInfoManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Base.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\DialogManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Circle\CircleScene.cpp">
+      <Filter>Classes\Game\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\TaskManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerCrazyMode.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\StrengthenManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\GameItemManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\GameInfoManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Counter.cpp">
+      <Filter>Classes\Public\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\CounterByImage.cpp">
+      <Filter>Classes\Public\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\NetListProcess.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DaPao\DaPaoScene.cpp">
+      <Filter>Classes\Game\DaPao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_MaxScore.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerTaiKo.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Taiko\TaikoCell.cpp">
+      <Filter>Classes\Game\Taiko</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\TaikoData.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_LvUp.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\NumSprite.cpp">
+      <Filter>Classes\Public\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerFriendCell.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerFriendList.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerGameCell.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_Logo.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayer_NormalScore.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene_Reward.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\CCColorUtil.cpp">
+      <Filter>Classes\Public\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCScrollviewSimple.cpp">
+      <Filter>Classes\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerFriendTaskList.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerFriendTaskCell.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\FriendManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game_SuperMemory.cpp">
+      <Filter>Classes\Game\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerGameRank.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerSysInfo.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameRankCell.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\SysInfoCell.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Net\ImageDownloader.cpp">
+      <Filter>Classes\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\InfoSysManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManage\PkSysManager.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\ChallengeCell.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\ChallengeCell2.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerChallenge.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameFinish\GameMedalItemLayer.cpp">
+      <Filter>Classes\GameLayer\GameFinish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameFinish\GameMedalLayer.cpp">
+      <Filter>Classes\GameLayer\GameFinish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Taiko\ScaleMoveTaiko.cpp">
+      <Filter>Classes\Game\Taiko</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerPkBar.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerPk.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\XQNetDate\XQDate.cpp">
+      <Filter>Classes\DataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Net\NetCallBack.cpp">
+      <Filter>Classes\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerNewerGuide.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NewGuide\NewerGuideRightTouch.cpp">
+      <Filter>Classes\NewGuide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NewGuide\NewerGuideFruit.cpp">
+      <Filter>Classes\NewGuide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NewGuide\NewerGuideTaiko.cpp">
+      <Filter>Classes\NewGuide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLinkerGuideLayer.cpp">
+      <Filter>Classes\Game\Linker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMemoryGuideLayer.cpp">
+      <Filter>Classes\Game\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerInvite.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\InviteCell.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helper\EffectActionHelp.cpp">
+      <Filter>Classes\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerInfoTip\FightInfoLayer.cpp">
+      <Filter>Classes\PlayerInfoTip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerInfoTip\FightItemLayer.cpp">
+      <Filter>Classes\PlayerInfoTip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerInfoTip\MySelfInfoLayer.cpp">
+      <Filter>Classes\PlayerInfoTip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerInfoTip\PlayerInfoAndFightLayer.cpp">
+      <Filter>Classes\PlayerInfoTip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerPk2.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameLayerLoading.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameWeekRewardLayer.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer\GameTakeRewardLayer.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameNewLinker.cpp">
+      <Filter>Classes\Game\Linker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameNewLinkerItems.cpp">
+      <Filter>Classes\Game\Linker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameNewLinkerMaps.cpp">
+      <Filter>Classes\Game\Linker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameFinish\JudgeMedalGet.cpp">
+      <Filter>Classes\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SanXiao\SanXiaoRuleController.cpp">
+      <Filter>Classes\SanXiao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SanXiao\SanXiaoItemLayer.cpp">
+      <Filter>Classes\SanXiao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SanXiao\SanXiaoConfigAnalytical.cpp">
+      <Filter>Classes\SanXiao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SanXiao\GameSanXiaoLayer.cpp">
+      <Filter>Classes\SanXiao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\aes.cpp">
+      <Filter>Classes\Public\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_Msg.h">
+      <Filter>Classes\GameShare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_Texture.h">
+      <Filter>Classes\GameShare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_TimeProcess.h">
+      <Filter>Classes\GameShare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game_Memory.h">
+      <Filter>Classes\Game\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene_GameList.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene_GameOver.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene_GameSetting.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene_Welcome.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameTableLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RightTouch\RightTouchScene.h">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RightTouch\RTBgLayer.h">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RightTouch\RTTouchLayer.h">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RightTouch\RTItem.h">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RightTouch\RightTouchDefine.h">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RightTouch\RTItemLayer.h">
+      <Filter>Classes\Game\RightTouch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSprite_Diamond.h">
+      <Filter>Classes\GameShare\GameSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSprite_Experience.h">
+      <Filter>Classes\GameShare\GameSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSprite_Gold.h">
+      <Filter>Classes\GameShare\GameSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSprite_Rice.h">
+      <Filter>Classes\GameShare\GameSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Constant.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_Batter.h">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_Boom.h">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_Pause.h">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_Scene.h">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_Score.h">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game_MemoryCard.h">
+      <Filter>Classes\Game\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameDemo.h">
+      <Filter>Classes\Game\GameDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_Data.h">
+      <Filter>Classes\GameShare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_Global.h">
+      <Filter>Classes\GameShare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_NetSystem.h">
+      <Filter>Classes\GameShare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_Property.h">
+      <Filter>Classes\GameShare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\FruitData.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\BaseData.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\RightTouchData.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gamelist.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScenelist.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSharelist.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameShare_SysSet.h">
+      <Filter>Classes\GameShare\GameShareScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Taiko\TaikoScene.h">
+      <Filter>Classes\Game\Taiko</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\MathUtil.h">
+      <Filter>Classes\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\RandomUtil.h">
+      <Filter>Classes\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\TimeUtil.h">
+      <Filter>Classes\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\UnitUtil.h">
+      <Filter>Classes\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Fruit\FruitCommand.h">
+      <Filter>Classes\Game\GameFruit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Fruit\GameFruitDefine.h">
+      <Filter>Classes\Game\GameFruit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Fruit\GameFruitField.h">
+      <Filter>Classes\Game\GameFruit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Fruit\GameFruitScene.h">
+      <Filter>Classes\Game\GameFruit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteFrameManage.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImplementScheduler.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCommand.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCommon.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScheduler.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameTimer.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Singleton.h">
+      <Filter>Classes\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\JsonHelper.h">
+      <Filter>Classes\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Net\NetEvnet.h">
+      <Filter>Classes\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Net\NetFactory.h">
+      <Filter>Classes\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Net\NetHookManager.h">
+      <Filter>Classes\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Net\NetHttpClient.h">
+      <Filter>Classes\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\DataManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene_GameItem.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Mask.h">
+      <Filter>Classes\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Net\NetPacket.h">
+      <Filter>Classes\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Net\MsgDefine.h">
+      <Filter>Classes\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\StringUtil.h">
+      <Filter>Classes\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Thread\CriSection.h">
+      <Filter>Classes\Thead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Thread\ScopeLock.h">
+      <Filter>Classes\Thead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Thread\Thread.h">
+      <Filter>Classes\Thead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\AudioHelper.h">
+      <Filter>Classes\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_GoldMarket.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_ItemStrong.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Menu.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Resource.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_RiceBar.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_RiceMarket.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_SuperItem.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Task.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Alert.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_DayLogin.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_DiamondMarket.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Csv\CsvBase.h">
+      <Filter>Classes\Csv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Csv\CsvLoader.h">
+      <Filter>Classes\Csv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Csv\CsvManager.h">
+      <Filter>Classes\Csv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Csv\CsvParser.h">
+      <Filter>Classes\Csv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Csv\UniqueData.h">
+      <Filter>Classes\Csv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Csv\UniqueID.h">
+      <Filter>Classes\Csv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\CsvStringData.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\MoneyManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\PlayerInfoManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Base.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\DialogManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Circle\CircleScene.h">
+      <Filter>Classes\Game\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\ComData.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\TaskManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerCrazyMode.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\StrengthenManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\GameInfoManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\GameItemManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Counter.h">
+      <Filter>Classes\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\CounterByImage.h">
+      <Filter>Classes\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\NetListProcess.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DaPao\DaPaoScene.h">
+      <Filter>Classes\Game\DaPao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_MaxScore.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Taiko\TaikoDefine.h">
+      <Filter>Classes\Game\Taiko</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerTaiKo.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Taiko\TaikoCell.h">
+      <Filter>Classes\Game\Taiko</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\TaikoData.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_LvUp.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\NumSprite.h">
+      <Filter>Classes\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerFriendCell.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerFriendList.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerGameCell.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_Logo.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayer_NormalScore.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene_Reward.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\CCColorUtil.h">
+      <Filter>Classes\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCScrollviewSimple.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerFriendTaskList.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerFriendTaskCell.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\FriendManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game_SuperMemory.h">
+      <Filter>Classes\Game\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerGameRank.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerSysInfo.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameRankCell.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\SysInfoCell.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Net\ImageDownloader.h">
+      <Filter>Classes\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\InfoSysManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\PkSysManager.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\ChallengeCell.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\ChallengeCell2.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerChallenge.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameFinish\GameMedalItemLayer.h">
+      <Filter>Classes\GameLayer\GameFinish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameFinish\GameMedalLayer.h">
+      <Filter>Classes\GameLayer\GameFinish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameFinish\JudgeMedalGet.h">
+      <Filter>Classes\GameLayer\GameFinish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Taiko\ScaleMoveTaiko.h">
+      <Filter>Classes\Game\Taiko</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerPkBar.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerPk.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\XQNetDate\XQDate.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Net\NetCallBack.h">
+      <Filter>Classes\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerNewerGuide.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NewGuide\NewerGuideRightTouch.h">
+      <Filter>Classes\NewGuide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NewGuide\NewerGuideFruit.h">
+      <Filter>Classes\NewGuide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NewGuide\NewerGuideTaiko.h">
+      <Filter>Classes\NewGuide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLinkerGuideLayer.h">
+      <Filter>Classes\Game\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMemoryGuideLayer.h">
+      <Filter>Classes\Game\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerInvite.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\InviteCell.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameUIExportJson.h">
+      <Filter>Classes\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\EffectActionHelp.h">
+      <Filter>Classes\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerInfoTip\FightInfoLayer.h">
+      <Filter>Classes\PlayerInfoTip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerInfoTip\FightItemLayer.h">
+      <Filter>Classes\PlayerInfoTip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerInfoTip\MySelfInfoLayer.h">
+      <Filter>Classes\PlayerInfoTip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerInfoTip\PlayerInfoAndFightLayer.h">
+      <Filter>Classes\PlayerInfoTip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerPk2.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameLayerLoading.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\TaskDefine.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameWeekRewardLayer.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer\GameTakeRewardLayer.h">
+      <Filter>Classes\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManage\ItemDefine.h">
+      <Filter>Classes\DataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameNewLinker.h">
+      <Filter>Classes\Game\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameNewLinkerItems.h">
+      <Filter>Classes\Game\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameNewLinkerMaps.h">
+      <Filter>Classes\Game\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SanXiao\SanXiaoRuleController.h">
+      <Filter>Classes\SanXiao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SanXiao\SanXiaoItemLayer.h">
+      <Filter>Classes\SanXiao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SanXiao\SanXiaoConfigAnalytical.h">
+      <Filter>Classes\SanXiao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SanXiao\GameSanXiaoLayer.h">
+      <Filter>Classes\SanXiao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\aes.h">
+      <Filter>Classes\Public\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

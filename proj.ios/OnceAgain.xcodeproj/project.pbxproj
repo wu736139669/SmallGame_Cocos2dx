@@ -1136,7 +1136,6 @@
 		04AF622D19075FA000616ED8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04AF624719075FA000616ED8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		04AF64381907603B00616ED8 /* OnceAgain copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnceAgain copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04AF64391907603C00616ED8 /* OnceAgain copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "OnceAgain copy-Info.plist"; path = "/Users/mac/Documents/svn/OnceAgain/trunk/cocos2d-x-2.2.1/projects/OnceAgain/proj.ios/OnceAgain copy-Info.plist"; sourceTree = "<absolute>"; };
 		04AF643F1907B49400616ED8 /* FriendManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FriendManager.cpp; sourceTree = "<group>"; };
 		04AF64401907B49400616ED8 /* FriendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendManager.h; sourceTree = "<group>"; };
 		04BB790C18ED949000FD26AE /* effect */ = {isa = PBXFileReference; lastKnownFileType = folder; path = effect; sourceTree = "<group>"; };
@@ -2802,7 +2801,6 @@
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				D1ADA5051952DBAA000D5E4D /* Assets */,
 				78C7DDAA14EBA5050085D0C2 /* Resources */,
-				04AF64391907603C00616ED8 /* OnceAgain copy-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
