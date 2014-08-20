@@ -894,6 +894,7 @@
 		63FBEFF618CFF503005A83E9 /* right_touch in Resources */ = {isa = PBXBuildFile; fileRef = 63FBEFF418CFF503005A83E9 /* right_touch */; };
 		63FF2F6718C9591E00B79C92 /* GameShare_NetSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63FF2F6618C9591E00B79C92 /* GameShare_NetSystem.cpp */; };
 		7855E0E1153FEF240059DD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7855E0DF153FEF240059DD9A /* Default.png */; };
+		A9AC9B4219A4A6760002D992 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A9AC9B4119A4A6760002D992 /* README.md */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -1800,6 +1801,7 @@
 		63FF2F6518C9591200B79C92 /* GameShare_NetSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameShare_NetSystem.h; path = ../Classes/GameShare_NetSystem.h; sourceTree = "<group>"; };
 		63FF2F6618C9591E00B79C92 /* GameShare_NetSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameShare_NetSystem.cpp; path = ../Classes/GameShare_NetSystem.cpp; sourceTree = "<group>"; };
 		7855E0DF153FEF240059DD9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		A9AC9B4119A4A6760002D992 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -2784,6 +2786,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				A9AC9B4119A4A6760002D992 /* README.md */,
 				048E6AB718EAC9F800B5E94B /* TencetSDK */,
 				048E6AA718EAC98400B5E94B /* libWeiboSDK */,
 				15A3D87E1682F7B3002FB0C5 /* cocos2dx.xcodeproj */,
@@ -3760,6 +3763,7 @@
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				6356CEDF1920B17E00B11B99 /* GameStarBtn.png in Resources */,
 				04115AF218BB31FF00337AD7 /* EF_play_pang_fever01_voc.caf in Resources */,
+				A9AC9B4219A4A6760002D992 /* README.md in Resources */,
 				04115AF318BB320100337AD7 /* EF_play_pang_max.caf in Resources */,
 				D1ADA5061952DBAA000D5E4D /* Assets in Resources */,
 				6334F7211925AAAF000AA6AE /* gameaction.png in Resources */,
