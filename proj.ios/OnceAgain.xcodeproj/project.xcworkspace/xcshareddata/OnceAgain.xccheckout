@@ -10,29 +10,29 @@
 	<string>OnceAgain</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>00DDD28F-4FB7-4B09-B829-43A327AE9554</key>
+		<key>E2DFE2902FAC09B32DD2A28E7C818049B1496B1E</key>
 		<string>https://github.com/wu736139669/SmallGame_Cocos2dx.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>proj.ios/OnceAgain.xcodeproj/project.xcworkspace</string>
+	<string>proj.ios/OnceAgain.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>00DDD28F-4FB7-4B09-B829-43A327AE9554</key>
+		<key>E2DFE2902FAC09B32DD2A28E7C818049B1496B1E</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/wu736139669/SmallGame_Cocos2dx.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>00DDD28F-4FB7-4B09-B829-43A327AE9554</string>
+	<string>E2DFE2902FAC09B32DD2A28E7C818049B1496B1E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>00DDD28F-4FB7-4B09-B829-43A327AE9554</string>
+			<string>E2DFE2902FAC09B32DD2A28E7C818049B1496B1E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SmallGame_Cocos2dx</string>
 		</dict>

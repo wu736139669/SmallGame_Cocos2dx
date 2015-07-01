@@ -304,5 +304,5 @@ void Scene_GameList::onEnter()
 void Scene_GameList::onEnterTransitionDidFinish()
 {
     CCLayer::onEnterTransitionDidFinish();
-	CItemMan::sharedInstance().RequestGetPackItem();
+//	CItemMan::sharedInstance().RequestGetPackItem();
 }

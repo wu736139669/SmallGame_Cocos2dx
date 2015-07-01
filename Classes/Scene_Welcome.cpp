@@ -49,11 +49,8 @@ void Scene_Welcome::onEnter()
 #endif
     
     
-    CCSize visibleSize = CCDirector::sharedDirector()->getVisibleSize();
 
-    
-//    UIImageView* logoImg = dynamic_cast<UIImageView*>(ul->getWidgetByName("Logo"));
-//    logoImg->setPosition(ccp(logoImg->getPosition().x,visibleSize.height-200));
+
     
     //设置是否显示其他登陆按钮.
     if (GameShare_Data::shareData()->getUserUUID() != "") {
@@ -87,7 +84,7 @@ void Scene_Welcome::onEnter()
 void Scene_Welcome::onEnterTransitionDidFinish()
 {
 //    GameShare_NetSystem::ShareNetSystem()->NetSystem_HTTPRequest("http://raw.github.com/minggo/AssetsManagerTest/master/version","0");
-    requestLoadData();
+//    requestLoadData();
 	//requestLoadData();
 }
 bool Scene_Welcome::init()
@@ -123,11 +120,11 @@ bool Scene_Welcome::init()
     CCNotificationCenter::sharedNotificationCenter()->addObserver(this, callfuncO_selector(Scene_Welcome::sinaLoginSuccess), kSinaLoginSuccess, NULL);
     CCNotificationCenter::sharedNotificationCenter()->addObserver(this, callfuncO_selector(Scene_Welcome::loginFail), kLoginFail, NULL);
     
-    for (int i = 1; i <= 5; i++) {
-        CCString str;
-        str.initWithFormat("medal600001_%d", i);
-        CCUserDefault::sharedUserDefault() -> setIntegerForKey(str.getCString(), 0);
-    }
+//    for (int i = 1; i <= 5; i++) {
+//        CCString str;
+//        str.initWithFormat("medal600001_%d", i);
+//        CCUserDefault::sharedUserDefault() -> setIntegerForKey(str.getCString(), 0);
+//    }
    
     CCSize visibleSize = CCDirector::sharedDirector()->getVisibleSize();
     
@@ -183,7 +180,7 @@ void Scene_Welcome::setBtnState(bool isLogin)
         qqLoginBtn->setTouchEnabled(false);
         sinaLoginBtn->setTouchEnabled(true);
         qqLoginBtn->setVisible(false);
-        sinaLoginBtn->setVisible(true);
+        sinaLoginBtn->setVisible(false);
         noLoginBtn->setTextures("./CocoStudioResources/btn_17.png", "./CocoStudioResources/btn_17.png", "");
         noLoginBtn->setPosition(ccp(visibleSize.width/2, noLoginBtn->getPosition().y));
     }
@@ -239,25 +236,13 @@ void Scene_Welcome::startGameSinaLogin(cocos2d::CCObject *object)
 }
 void Scene_Welcome::startGameNoLogin(cocos2d::CCObject *object){
     
-//    ((UIButton*)object)->setTouchEnable(false);
-  //  GameShare_Global::shareGlobal()->loginType = LoginType_Tourist;
+
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
-//    UILayer *ul1 = UILayer::create();
-//    this -> addChild(ul1);
-//    std::string str = GameShare_Data::shareData()->getUserUUID();
-//    UILabel *label = UILabel::create();
-//    label ->setText(str.c_str());
-//    label -> setPosition(ccp(350, 400));
-//    label -> setColor(ccBLACK);
-//    label -> setScale(2);
-//    ul -> addWidget(label);
-    
-//    label -> runAction(CCSequence::create(CCDelayTime::create(3), CCRemoveSelf::create(),NULL));
+
 
     if (GameShare_Data::shareData()->getUserUUID() != "") {
         
         CPlayerInfoMan::sharedInstance().setLoginPreson(false);
-        //requestLoadData();
         CPlayerInfoMan::sharedInstance().getPlayerInfo().strUuId = GameShare_Data::shareData()->getUserUUID();
         CPlayerInfoMan::sharedInstance().RequestPlayerInfo();
         SinaInterface::shareInstant()->getFriend();

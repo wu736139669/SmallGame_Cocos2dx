@@ -45,11 +45,8 @@ static SinaInterface_Objc *instance = nil;
 {
     WBAuthorizeRequest *request = [WBAuthorizeRequest request];
     request.redirectURI = kSinaAppRedirectURI;
-    request.scope = @"invitation_write,all";
-////    request.
-////    request.scope = @"direct_messages_write,invitation_write,follow_app_official_microblog";
+//    request.scope = @"invitation_write,all";
     [WeiboSDK sendRequest:request];
-//    [WBHttpRequest requestWithURL:@"https://api.weibo.com/oauth2/authorize" httpMethod:@"GET" params:[[NSDictionary alloc] initWithObjectsAndKeys:kSinaAppKey,@"client_id", kSinaAppKey,@"redirect_uri",@"all",@"scope", nil] delegate:self];
 }
 -(void)inviteUser:(const char *)uid
 {
@@ -113,8 +110,6 @@ static SinaInterface_Objc *instance = nil;
         NSString* url = [dic objectForKey:@"avatar_large"];
         GameShare_Data::shareData()->setUserUrl([url UTF8String]);
         GameShare_Data::shareData()->setUserName([name UTF8String]);
-        NSString *message = [NSString stringWithFormat:@"2/users/show.json : name=%@,url=%@",name,url];
-        NSLog(message);
         
         cocos2d::CCNotificationCenter::sharedNotificationCenter()->postNotification(kSinaLoginSuccess, NULL);
     }
@@ -124,22 +119,18 @@ static SinaInterface_Objc *instance = nil;
 {
     if ([response isKindOfClass:WBSendMessageToWeiboResponse.class])
     {
-        NSString *title = @"发送结果";
-        NSString *message = [NSString stringWithFormat:@"响应状态: %d\n响应UserInfo数据: %@\n原请求UserInfo数据: %@",
-                             response.statusCode, response.userInfo, response.requestUserInfo];
+
     }
     else if ([response isKindOfClass:WBAuthorizeResponse.class])
     {
         if (response.statusCode == WeiboSDKResponseStatusCodeSuccess) {
-            NSString *title = @"认证结果";
-            NSString *message = [NSString stringWithFormat:@"响应状态: %d\nresponse.userId: %@\nresponse.accessToken: %@\n响应UserInfo数据: %@\n原请求UserInfo数据: %@",
-                                 response.statusCode,
-                                 [(WBAuthorizeResponse *)response userID],
-                                 [(WBAuthorizeResponse *)response accessToken],
-                                 response.userInfo,
-                                 response.requestUserInfo];
-            NSLog(message);
-//            GameShare_Global::shareGlobal()->sinaID = [[(WBAuthorizeResponse *)response userID] UTF8String];
+//            NSString *message = [NSString stringWithFormat:@"响应状态: %d\nresponse.userId: %@\nresponse.accessToken: %@\n响应UserInfo数据: %@\n原请求UserInfo数据: %@",
+//                                 response.statusCode,
+//                                 [(WBAuthorizeResponse *)response userID],
+//                                 [(WBAuthorizeResponse *)response accessToken],
+//                                 response.userInfo,
+//                                 response.requestUserInfo];
+//            NSLog(message);
             CPlayerInfoMan::sharedInstance().getPlayerInfo().strSina = [[(WBAuthorizeResponse *)response userID] UTF8String];
             GameShare_Data::shareData()->setSinaId([[(WBAuthorizeResponse *)response userID] UTF8String], [[(WBAuthorizeResponse *)response accessToken] UTF8String], [[(WBAuthorizeResponse *)response expirationDate] timeIntervalSince1970] );
             
